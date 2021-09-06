@@ -1,0 +1,7 @@
+[
+ {"utilizator": "test", "parola": "test","nume":"test","prenume":"test"},
+ {"utilizator": "malina", "parola": "malina" ,"nume":"malina","prenume":"malina"},
+ {"utilizator": "andrei", "parola": "andrei" ,"nume":"ichim","prenume":"andrei"},
+ {"utilizator": "andreea", "parola": "andreea" ,"nume":"ichim","prenume":"andreea"},
+ {"utilizator": "admin", "parola": "admin" ,"nume":"admin","prenume":"admin"}
+]

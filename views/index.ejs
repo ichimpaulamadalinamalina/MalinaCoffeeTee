@@ -1,0 +1,58 @@
+
+    <%if(eroare != null){%>
+        <h2 style="color:red"><%=eroare%></h2>
+      <%}%>
+      <%if(user != null){%>
+        <h4 class="login">
+            Logat ca <%=user%>
+        </h4>
+      <%}%>
+     
+     
+  
+    <h2>Bine ai venit <%= user%></h2>
+    <div class="a">
+    <form action="/creare-bd", method="GET">
+      <button type=submit>Creare-BD</button>
+    </form>
+
+    <form action="/inserare-bd", method="GET">
+      <button type=submit>Inserare-BD</button>
+    </form>
+    <form action="/admin", method="GET">
+      <button type=submit id="miau">Inserare produs</button>
+    </form>
+   </div>
+    <section class="row">
+  <br><br>
+       <div class="a">
+      <h2>Produsele cafenelei noastre</h2>
+       </div>
+    
+      <% items.forEach(function(item) {%>
+          <div class="column">
+              <h5>
+                  <%= item.name%>
+              </h5>
+              
+              <img src= "/<%= item.name%>.jpeg" alt="caf" width="100" height="100">
+            
+              <form action="/adaugare-cos" method="POST">
+                  <input type="hidden" name="id" value="<%=item.name%>">
+                  <button type="submit">Adaugă în coș</button>
+              </form>
+              
+          </div>
+
+          
+         
+     <%});%>
+        </section>
+ <div class="a">
+  <form action="/vizualizare_cos" method="GET">
+    <button type="submit">Vizualizare coș</button>
+</form>
+ </div>
+
+
+    

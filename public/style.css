@@ -1,0 +1,173 @@
+
+  
+  h1 {
+    color: #8B4513;
+    text-align: center;
+  }
+  
+  h2{
+      color: #8B4513;
+      text-align: center;
+    }
+  
+  main {
+    font-family: verdana;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color:#8B4513;
+  
+  }
+
+  input[type="radio"] + label {
+    color:#8B4513;
+    font-family:Arial, sans-serif;
+    font-size:20px;
+    clear: both;
+    text-align: center;
+    
+}
+
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+ 
+  
+
+button:hover{
+  background-color: #555555;
+  color: white;
+}
+
+footer {
+  height: 30px;
+  width:100%;
+  bottom: 0;
+  color:white;
+  text-align: center;
+  text-shadow: 2px 2px 0 #8b0000, 2px -2px 0 #8b0000, -2px 2px 0 #8b0000, -2px -2px 0 #8b0000, 2px 0px 0 #8b0000, 0px 2px 0 #8b0000, -2px 0px 0 #8b0000, 0px -2px 0 #8b0000;
+
+
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: #8B4513;
+  border: 2px solid white;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center3 {
+  display: block;
+  margin-left: 400px;
+  margin-right: 400px;
+  width: 70%;
+}
+
+img[alt="pisici"] {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display:block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+.navtema{
+  
+  border-bottom: 5px solid brown;
+}
+
+
+
+
+.navtema a{
+    padding:15px;
+    border:2px solid #e02f2f;
+    margin:10px 60px 30px 60px ;
+    color: brown;
+    line-height: 50px;
+
+}
+
+
+.column{
+  float: left; 
+  width:25%;
+  margin:10px;
+  background-color: rgb(199, 128, 42);
+  
+}
+
+.row{
+  margin-left: 200px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+
+
+
+.navtema a:hover{
+  color: brown;
+}
+
+#caf
+{
+  margin: 10px;
+}
+
+div.a {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+
+[{
+    "intrebare":"SE POATE FACE O INFUZIE DE CEAI DE MAI MULTE ORI?",
+    "variante":["Da","Nu"],
+    "corect":0
+}
+,
+{
+    "intrebare":"CATE CESTI DE CEAI SUNT RECOMANDATE PE ZI??",
+    "variante":["NICIUNA","FARA NUMAR" ,"TREI"],
+    "corect":2
+}
+,
+{
+    "intrebare":"VĂ PLACE CEAIUL??",
+    "variante":["DA","NU" ,"DEPINDE DE SORTIMENT"],
+    "corect":2
+}]

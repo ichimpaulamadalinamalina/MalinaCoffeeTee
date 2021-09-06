@@ -1,0 +1,40 @@
+
+    <%if(eroare != null){%>
+      <h2 style="color:red"><%=eroare%></h2>
+    <%}%>
+    <%if(user != null){%>
+      <h4 class="login">
+          Logat ca <%=user%>
+      </h4>
+    <%}%>
+
+<form action="/rezultat-chestionar", method="POST">
+<br><br>
+    <div class="container">
+      <img src="web.jpg" alt="Notebook" style="width:100%;">
+      <div class="content1">
+          <br>
+      <h1>COFFETEE QUIZ</h1>
+
+        <% for(var i=0;i<intrebari.length; i++){%>
+            <div>
+              <h2><%= intrebari[i].intrebare %></h2>
+                <% for(var j=0;j<intrebari[i].variante.length; j++){%>
+                    
+                    <input type="radio" name= <%="q" + i%> value="<%=intrebari[i].variante[j]%>"/>
+                    
+                    <label><%= intrebari[i].variante[j] %></label><br/>
+                    
+                
+            <% }%>
+            
+            </div>
+                
+         <%}%>
+   <br/>
+   <div class="center">
+    <button type="submit">Finish quiz</button>
+   </div>
+     </form>
+    </div>
+</div>
